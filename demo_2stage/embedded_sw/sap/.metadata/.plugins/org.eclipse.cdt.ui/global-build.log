@@ -1,0 +1,7 @@
+16:43:17 **** Incremental Build of configuration Default for project i2cDemoSpo2 ****
+make all 
+CC src/main.c
+LD i2cDemoSpo2
+Memory region         Used Size  Region Size  %age Used
+             ROM:        5112 B        32 KB     15.60%
+             RAM:         332 B        32 KB      1.01%

@@ -1,0 +1,63 @@
+!SESSION 2023-05-09 09:40:32.058 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -clearPersistedState
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clearPersistedState
+
+!ENTRY org.eclipse.ui 4 4 2023-05-09 09:40:41.108
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-09 09:41:05.176
+!MESSAGE Indexed 'i2cDemoSpo2Load' (1 sources, 1 headers) in 0.147 sec: 142 declarations; 3 references; 11 unresolved inclusions; 0 syntax errors; 16 unresolved names (9.9%)
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 5012 2023-05-09 09:47:36.036
+!MESSAGE Error while launching command: riscv-none-embed-gdb --version
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 5012 2023-05-09 09:48:12.252
+!MESSAGE Error while launching command: riscv-none-embed-gdb --version
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 5012 2023-05-09 09:49:04.152
+!MESSAGE Error while launching command: riscv-none-embed-gdb --version
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-09 09:55:56.445
+!MESSAGE Indexed 'gpioDemo' (1 sources, 0 headers) in 0.007 sec: 1 declarations; 4 references; 6 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2023-05-09 09:58:31.250
+!MESSAGE C:\Efinity\efinity-riscv-ide-2022.2.3\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f ../../../bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f ../../../bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2023-05-09 09:58:32.552
+!MESSAGE C:\Efinity\efinity-riscv-ide-2022.2.3\Efinity-RISCV-IDE\/../toolchain/bin/riscv-none-embed-gdb.exe --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.core.jobs 2 2 2023-05-09 10:02:35.324
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2023-05-09 10:15:00.661 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -clearPersistedState
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clearPersistedState
+
+!ENTRY org.eclipse.ui 4 4 2023-05-09 10:15:10.592
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-09 10:15:48.247
+!MESSAGE Indexed 'gpioDemo' (1 sources, 0 headers) in 0.095 sec: 1 declarations; 4 references; 6 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-09 10:16:17.281
+!MESSAGE Indexed 'i2cDemoSpo2Load' (1 sources, 2 headers) in 0.047 sec: 146 declarations; 13 references; 10 unresolved inclusions; 0 syntax errors; 16 unresolved names (9.1%)
+!SESSION 2023-05-15 16:39:47.688 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -clearPersistedState
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clearPersistedState
+
+!ENTRY org.eclipse.ui 4 4 2023-05-15 16:39:51.252
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-15 16:41:48.627
+!MESSAGE Indexed 'i2cDemoSpo2' (1 sources, 1 headers) in 0.14 sec: 142 declarations; 3 references; 11 unresolved inclusions; 0 syntax errors; 16 unresolved names (9.9%)

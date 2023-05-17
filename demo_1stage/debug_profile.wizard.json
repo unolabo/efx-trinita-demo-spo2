@@ -1,0 +1,3238 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "d607ffee112b4a4991cdde03d1003178",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 512,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_cmd_payload_data",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_cmd_payload_size",
+                    "width": 2,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_cmd_valid",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_cmd_payload_wr",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_cmd_payload_address",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_dBus_rsp_payload_fragment_data",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_dBus_rsp_ready",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_rsp_error",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_dBus_rsp_valid",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_dBus_rsp_payload_fragment_opcode",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_dBus_rsp_payload_last",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_dBus_rsp_payload_fragment_context",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_rsp_ready",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "VAL_HEARTRATE",
+                    "width": 12,
+                    "probe_type": 1
+                },
+                {
+                    "name": "io_apbSlave_0_PREADY",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "io_apbSlave_0_PSLVERROR",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "io_apbSlave_0_PWDATA",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "io_apbSlave_0_PENABLE",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "io_apbSlave_0_PADDR",
+                    "width": 16,
+                    "probe_type": 1
+                },
+                {
+                    "name": "io_apbSlave_0_PSEL",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "io_apbSlave_0_PRDATA",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "io_apbSlave_0_PWRITE",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "VAL_WATT",
+                    "width": 20,
+                    "probe_type": 1
+                },
+                {
+                    "name": "VAL_STB",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "VAL_SPO2",
+                    "width": 12,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_fragment_data",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_valid",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_fire",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_interrupt",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_fire_1",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_fragment_source",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_payload_last",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_payload_fragment_opcode",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_uart_rxd",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_last",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_fragment_address",
+                    "width": 6,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_fragment_length",
+                    "width": 2,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_payload_fragment_data",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_payload_fragment_source",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_payload_fragment_context",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_ready",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_uart_txd",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_fragment_opcode",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_fragment_context",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_ready",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_valid",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "spo2_top",
+                "ports": [
+                    {
+                        "name": "jtag_inst2_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst2_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst2_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst2_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst2_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst2_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst2_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst2_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst2_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst2_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst2_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst2_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "CLK25M",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[0]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[1]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[1]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[2]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[2]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[3]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[3]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[4]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[4]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[5]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[5]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[6]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[6]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[7]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[7]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[8]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[8]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[9]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[9]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[10]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[10]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[11]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[11]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[12]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[12]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[13]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[13]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[14]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[14]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[15]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[15]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[16]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[16]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[17]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[17]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[18]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[18]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[19]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[19]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[20]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[20]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[21]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[21]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[22]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[22]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[23]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[23]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[24]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[24]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[25]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[25]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[26]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[26]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[27]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[27]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[28]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[28]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[29]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[29]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[30]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[30]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[31]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_data[31]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[0]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_size[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[1]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_size[1]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_valid",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_wr",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[0]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[1]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[1]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[2]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[2]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[3]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[3]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[4]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[4]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[5]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[5]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[6]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[6]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[7]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[7]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[8]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[8]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[9]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[9]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[10]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[10]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[11]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[11]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[12]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[12]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[13]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[13]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[14]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[14]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[15]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[15]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[16]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[16]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[17]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[17]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[18]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[18]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[19]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[19]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[20]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[20]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[21]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[21]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[22]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[22]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[23]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[23]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[24]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[24]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[25]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[25]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[26]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[26]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[27]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[27]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[28]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[28]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[29]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[29]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[30]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[30]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[31]",
+                        "net": "system_cores_0_logic_cpu_dBus_cmd_payload_address[31]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[0]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[1]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[1]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[2]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[2]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[3]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[3]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[4]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[4]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[5]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[5]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[6]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[6]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[7]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[7]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[8]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[8]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[9]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[9]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[10]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[10]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[11]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[11]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[12]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[12]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[13]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[13]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[14]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[14]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[15]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[15]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[16]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[16]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[17]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[17]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[18]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[18]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[19]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[19]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[20]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[20]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[21]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[21]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[22]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[22]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[23]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[23]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[24]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[24]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[25]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[25]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[26]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[26]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[27]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[27]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[28]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[28]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[29]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[29]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[30]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[30]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[31]",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_data[31]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6",
+                        "net": "system_cores_0_dBus_rsp_ready",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7",
+                        "net": "system_cores_0_logic_cpu_dBus_rsp_error",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8",
+                        "net": "system_cores_0_dBus_rsp_valid",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_opcode[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10",
+                        "net": "system_cores_0_dBus_rsp_payload_last",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11",
+                        "net": "system_cores_0_dBus_rsp_payload_fragment_context[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12",
+                        "net": "system_cores_0_logic_cpu_dBus_rsp_ready",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[0]",
+                        "net": "VAL_HEARTRATE[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[1]",
+                        "net": "VAL_HEARTRATE[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[2]",
+                        "net": "VAL_HEARTRATE[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[3]",
+                        "net": "VAL_HEARTRATE[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[4]",
+                        "net": "VAL_HEARTRATE[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[5]",
+                        "net": "VAL_HEARTRATE[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[6]",
+                        "net": "VAL_HEARTRATE[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[7]",
+                        "net": "VAL_HEARTRATE[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[8]",
+                        "net": "VAL_HEARTRATE[8]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[9]",
+                        "net": "VAL_HEARTRATE[9]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[10]",
+                        "net": "VAL_HEARTRATE[10]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[11]",
+                        "net": "VAL_HEARTRATE[11]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe14",
+                        "net": "io_apbSlave_0_PREADY",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe15",
+                        "net": "io_apbSlave_0_PSLVERROR",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[0]",
+                        "net": "io_apbSlave_0_PWDATA[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[1]",
+                        "net": "io_apbSlave_0_PWDATA[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[2]",
+                        "net": "io_apbSlave_0_PWDATA[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[3]",
+                        "net": "io_apbSlave_0_PWDATA[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[4]",
+                        "net": "io_apbSlave_0_PWDATA[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[5]",
+                        "net": "io_apbSlave_0_PWDATA[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[6]",
+                        "net": "io_apbSlave_0_PWDATA[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[7]",
+                        "net": "io_apbSlave_0_PWDATA[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[8]",
+                        "net": "io_apbSlave_0_PWDATA[8]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[9]",
+                        "net": "io_apbSlave_0_PWDATA[9]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[10]",
+                        "net": "io_apbSlave_0_PWDATA[10]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[11]",
+                        "net": "io_apbSlave_0_PWDATA[11]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[12]",
+                        "net": "io_apbSlave_0_PWDATA[12]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[13]",
+                        "net": "io_apbSlave_0_PWDATA[13]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[14]",
+                        "net": "io_apbSlave_0_PWDATA[14]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[15]",
+                        "net": "io_apbSlave_0_PWDATA[15]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[16]",
+                        "net": "io_apbSlave_0_PWDATA[16]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[17]",
+                        "net": "io_apbSlave_0_PWDATA[17]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[18]",
+                        "net": "io_apbSlave_0_PWDATA[18]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[19]",
+                        "net": "io_apbSlave_0_PWDATA[19]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[20]",
+                        "net": "io_apbSlave_0_PWDATA[20]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[21]",
+                        "net": "io_apbSlave_0_PWDATA[21]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[22]",
+                        "net": "io_apbSlave_0_PWDATA[22]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[23]",
+                        "net": "io_apbSlave_0_PWDATA[23]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[24]",
+                        "net": "io_apbSlave_0_PWDATA[24]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[25]",
+                        "net": "io_apbSlave_0_PWDATA[25]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[26]",
+                        "net": "io_apbSlave_0_PWDATA[26]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[27]",
+                        "net": "io_apbSlave_0_PWDATA[27]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[28]",
+                        "net": "io_apbSlave_0_PWDATA[28]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[29]",
+                        "net": "io_apbSlave_0_PWDATA[29]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[30]",
+                        "net": "io_apbSlave_0_PWDATA[30]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[31]",
+                        "net": "io_apbSlave_0_PWDATA[31]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe17",
+                        "net": "io_apbSlave_0_PENABLE",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[0]",
+                        "net": "io_apbSlave_0_PADDR[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[1]",
+                        "net": "io_apbSlave_0_PADDR[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[2]",
+                        "net": "io_apbSlave_0_PADDR[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[3]",
+                        "net": "io_apbSlave_0_PADDR[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[4]",
+                        "net": "io_apbSlave_0_PADDR[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[5]",
+                        "net": "io_apbSlave_0_PADDR[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[6]",
+                        "net": "io_apbSlave_0_PADDR[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[7]",
+                        "net": "io_apbSlave_0_PADDR[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[8]",
+                        "net": "io_apbSlave_0_PADDR[8]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[9]",
+                        "net": "io_apbSlave_0_PADDR[9]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[10]",
+                        "net": "io_apbSlave_0_PADDR[10]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[11]",
+                        "net": "io_apbSlave_0_PADDR[11]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[12]",
+                        "net": "io_apbSlave_0_PADDR[12]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[13]",
+                        "net": "io_apbSlave_0_PADDR[13]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[14]",
+                        "net": "io_apbSlave_0_PADDR[14]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18[15]",
+                        "net": "io_apbSlave_0_PADDR[15]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe19",
+                        "net": "io_apbSlave_0_PSEL",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[0]",
+                        "net": "io_apbSlave_0_PRDATA[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[1]",
+                        "net": "io_apbSlave_0_PRDATA[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[2]",
+                        "net": "io_apbSlave_0_PRDATA[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[3]",
+                        "net": "io_apbSlave_0_PRDATA[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[4]",
+                        "net": "io_apbSlave_0_PRDATA[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[5]",
+                        "net": "io_apbSlave_0_PRDATA[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[6]",
+                        "net": "io_apbSlave_0_PRDATA[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[7]",
+                        "net": "io_apbSlave_0_PRDATA[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[8]",
+                        "net": "io_apbSlave_0_PRDATA[8]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[9]",
+                        "net": "io_apbSlave_0_PRDATA[9]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[10]",
+                        "net": "io_apbSlave_0_PRDATA[10]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[11]",
+                        "net": "io_apbSlave_0_PRDATA[11]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[12]",
+                        "net": "io_apbSlave_0_PRDATA[12]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[13]",
+                        "net": "io_apbSlave_0_PRDATA[13]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[14]",
+                        "net": "io_apbSlave_0_PRDATA[14]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[15]",
+                        "net": "io_apbSlave_0_PRDATA[15]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[16]",
+                        "net": "io_apbSlave_0_PRDATA[16]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[17]",
+                        "net": "io_apbSlave_0_PRDATA[17]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[18]",
+                        "net": "io_apbSlave_0_PRDATA[18]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[19]",
+                        "net": "io_apbSlave_0_PRDATA[19]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[20]",
+                        "net": "io_apbSlave_0_PRDATA[20]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[21]",
+                        "net": "io_apbSlave_0_PRDATA[21]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[22]",
+                        "net": "io_apbSlave_0_PRDATA[22]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[23]",
+                        "net": "io_apbSlave_0_PRDATA[23]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[24]",
+                        "net": "io_apbSlave_0_PRDATA[24]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[25]",
+                        "net": "io_apbSlave_0_PRDATA[25]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[26]",
+                        "net": "io_apbSlave_0_PRDATA[26]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[27]",
+                        "net": "io_apbSlave_0_PRDATA[27]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[28]",
+                        "net": "io_apbSlave_0_PRDATA[28]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[29]",
+                        "net": "io_apbSlave_0_PRDATA[29]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[30]",
+                        "net": "io_apbSlave_0_PRDATA[30]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20[31]",
+                        "net": "io_apbSlave_0_PRDATA[31]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe21",
+                        "net": "io_apbSlave_0_PWRITE",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[0]",
+                        "net": "VAL_WATT[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[1]",
+                        "net": "VAL_WATT[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[2]",
+                        "net": "VAL_WATT[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[3]",
+                        "net": "VAL_WATT[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[4]",
+                        "net": "VAL_WATT[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[5]",
+                        "net": "VAL_WATT[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[6]",
+                        "net": "VAL_WATT[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[7]",
+                        "net": "VAL_WATT[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[8]",
+                        "net": "VAL_WATT[8]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[9]",
+                        "net": "VAL_WATT[9]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[10]",
+                        "net": "VAL_WATT[10]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[11]",
+                        "net": "VAL_WATT[11]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[12]",
+                        "net": "VAL_WATT[12]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[13]",
+                        "net": "VAL_WATT[13]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[14]",
+                        "net": "VAL_WATT[14]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[15]",
+                        "net": "VAL_WATT[15]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[16]",
+                        "net": "VAL_WATT[16]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[17]",
+                        "net": "VAL_WATT[17]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[18]",
+                        "net": "VAL_WATT[18]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[19]",
+                        "net": "VAL_WATT[19]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe23",
+                        "net": "VAL_STB",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24[0]",
+                        "net": "VAL_SPO2[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24[1]",
+                        "net": "VAL_SPO2[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24[2]",
+                        "net": "VAL_SPO2[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24[3]",
+                        "net": "VAL_SPO2[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24[4]",
+                        "net": "VAL_SPO2[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24[5]",
+                        "net": "VAL_SPO2[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24[6]",
+                        "net": "VAL_SPO2[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24[7]",
+                        "net": "VAL_SPO2[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24[8]",
+                        "net": "VAL_SPO2[8]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24[9]",
+                        "net": "VAL_SPO2[9]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24[10]",
+                        "net": "VAL_SPO2[10]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24[11]",
+                        "net": "VAL_SPO2[11]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe25[0]",
+                        "net": "io_bus_cmd_payload_fragment_data[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[1]",
+                        "net": "io_bus_cmd_payload_fragment_data[1]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[2]",
+                        "net": "io_bus_cmd_payload_fragment_data[2]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[3]",
+                        "net": "io_bus_cmd_payload_fragment_data[3]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[4]",
+                        "net": "io_bus_cmd_payload_fragment_data[4]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[5]",
+                        "net": "io_bus_cmd_payload_fragment_data[5]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[6]",
+                        "net": "io_bus_cmd_payload_fragment_data[6]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[7]",
+                        "net": "io_bus_cmd_payload_fragment_data[7]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[8]",
+                        "net": "io_bus_cmd_payload_fragment_data[8]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[9]",
+                        "net": "io_bus_cmd_payload_fragment_data[9]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[10]",
+                        "net": "io_bus_cmd_payload_fragment_data[10]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[11]",
+                        "net": "io_bus_cmd_payload_fragment_data[11]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[12]",
+                        "net": "io_bus_cmd_payload_fragment_data[12]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[13]",
+                        "net": "io_bus_cmd_payload_fragment_data[13]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[14]",
+                        "net": "io_bus_cmd_payload_fragment_data[14]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[15]",
+                        "net": "io_bus_cmd_payload_fragment_data[15]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[16]",
+                        "net": "io_bus_cmd_payload_fragment_data[16]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[17]",
+                        "net": "io_bus_cmd_payload_fragment_data[17]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[18]",
+                        "net": "io_bus_cmd_payload_fragment_data[18]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[19]",
+                        "net": "io_bus_cmd_payload_fragment_data[19]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[20]",
+                        "net": "io_bus_cmd_payload_fragment_data[20]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[21]",
+                        "net": "io_bus_cmd_payload_fragment_data[21]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[22]",
+                        "net": "io_bus_cmd_payload_fragment_data[22]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[23]",
+                        "net": "io_bus_cmd_payload_fragment_data[23]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[24]",
+                        "net": "io_bus_cmd_payload_fragment_data[24]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[25]",
+                        "net": "io_bus_cmd_payload_fragment_data[25]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[26]",
+                        "net": "io_bus_cmd_payload_fragment_data[26]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[27]",
+                        "net": "io_bus_cmd_payload_fragment_data[27]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[28]",
+                        "net": "io_bus_cmd_payload_fragment_data[28]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[29]",
+                        "net": "io_bus_cmd_payload_fragment_data[29]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[30]",
+                        "net": "io_bus_cmd_payload_fragment_data[30]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[31]",
+                        "net": "io_bus_cmd_payload_fragment_data[31]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26",
+                        "net": "io_bus_rsp_valid",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27",
+                        "net": "io_bus_cmd_fire",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe28",
+                        "net": "io_interrupt",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe29",
+                        "net": "io_bus_cmd_fire_1",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe30",
+                        "net": "io_bus_cmd_payload_fragment_source[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe31",
+                        "net": "io_bus_rsp_payload_last",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe32",
+                        "net": "io_bus_rsp_payload_fragment_opcode[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe33",
+                        "net": "io_uart_rxd",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe34",
+                        "net": "io_bus_cmd_payload_last",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe35[0]",
+                        "net": "io_bus_cmd_payload_fragment_address[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe35[1]",
+                        "net": "io_bus_cmd_payload_fragment_address[1]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe35[2]",
+                        "net": "io_bus_cmd_payload_fragment_address[2]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe35[3]",
+                        "net": "io_bus_cmd_payload_fragment_address[3]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe35[4]",
+                        "net": "io_bus_cmd_payload_fragment_address[4]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe35[5]",
+                        "net": "io_bus_cmd_payload_fragment_address[5]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe36[0]",
+                        "net": "io_bus_cmd_payload_fragment_length[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe36[1]",
+                        "net": "io_bus_cmd_payload_fragment_length[1]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[0]",
+                        "net": "io_bus_rsp_payload_fragment_data[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[1]",
+                        "net": "io_bus_rsp_payload_fragment_data[1]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[2]",
+                        "net": "io_bus_rsp_payload_fragment_data[2]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[3]",
+                        "net": "io_bus_rsp_payload_fragment_data[3]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[4]",
+                        "net": "io_bus_rsp_payload_fragment_data[4]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[5]",
+                        "net": "io_bus_rsp_payload_fragment_data[5]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[6]",
+                        "net": "io_bus_rsp_payload_fragment_data[6]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[7]",
+                        "net": "io_bus_rsp_payload_fragment_data[7]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[8]",
+                        "net": "io_bus_rsp_payload_fragment_data[8]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[9]",
+                        "net": "io_bus_rsp_payload_fragment_data[9]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[10]",
+                        "net": "io_bus_rsp_payload_fragment_data[10]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[11]",
+                        "net": "io_bus_rsp_payload_fragment_data[11]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[12]",
+                        "net": "io_bus_rsp_payload_fragment_data[12]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[13]",
+                        "net": "io_bus_rsp_payload_fragment_data[13]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[14]",
+                        "net": "io_bus_rsp_payload_fragment_data[14]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[15]",
+                        "net": "io_bus_rsp_payload_fragment_data[15]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[16]",
+                        "net": "io_bus_rsp_payload_fragment_data[16]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[17]",
+                        "net": "io_bus_rsp_payload_fragment_data[17]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[18]",
+                        "net": "io_bus_rsp_payload_fragment_data[18]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[19]",
+                        "net": "io_bus_rsp_payload_fragment_data[19]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[20]",
+                        "net": "io_bus_rsp_payload_fragment_data[20]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[21]",
+                        "net": "io_bus_rsp_payload_fragment_data[21]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[22]",
+                        "net": "io_bus_rsp_payload_fragment_data[22]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[23]",
+                        "net": "io_bus_rsp_payload_fragment_data[23]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[24]",
+                        "net": "io_bus_rsp_payload_fragment_data[24]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[25]",
+                        "net": "io_bus_rsp_payload_fragment_data[25]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[26]",
+                        "net": "io_bus_rsp_payload_fragment_data[26]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[27]",
+                        "net": "io_bus_rsp_payload_fragment_data[27]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[28]",
+                        "net": "io_bus_rsp_payload_fragment_data[28]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[29]",
+                        "net": "io_bus_rsp_payload_fragment_data[29]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[30]",
+                        "net": "io_bus_rsp_payload_fragment_data[30]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37[31]",
+                        "net": "io_bus_rsp_payload_fragment_data[31]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe38",
+                        "net": "io_bus_rsp_payload_fragment_source[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe39",
+                        "net": "io_bus_rsp_payload_fragment_context[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe40",
+                        "net": "io_bus_rsp_ready",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe41",
+                        "net": "io_uart_txd",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe42",
+                        "net": "io_bus_cmd_payload_fragment_opcode[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe43",
+                        "net": "io_bus_cmd_payload_fragment_context[0]",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe44",
+                        "net": "io_bus_cmd_ready",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe45",
+                        "net": "io_bus_cmd_valid",
+                        "path": [
+                            "u_sapphire_soc_min",
+                            "u_EfxSapphireSoc",
+                            "system_uart_0_io_logic"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 512,
+            "capture_control": false,
+            "selected_nets": [
+                {
+                    "name": "system_cores_0_logic_cpu_dBus_cmd_payload_data",
+                    "width": 32,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "system_cores_0_logic_cpu_dBus_cmd_payload_size",
+                    "width": 2,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc"
+                    ],
+                    "net_idx_left": 1,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "system_cores_0_logic_cpu_dBus_cmd_valid",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc"
+                    ]
+                },
+                {
+                    "name": "system_cores_0_logic_cpu_dBus_cmd_payload_wr",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc"
+                    ]
+                },
+                {
+                    "name": "system_cores_0_logic_cpu_dBus_cmd_payload_address",
+                    "width": 32,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "system_cores_0_dBus_rsp_payload_fragment_data",
+                    "width": 32,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "system_cores_0_dBus_rsp_ready",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc"
+                    ]
+                },
+                {
+                    "name": "system_cores_0_logic_cpu_dBus_rsp_error",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc"
+                    ]
+                },
+                {
+                    "name": "system_cores_0_dBus_rsp_valid",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc"
+                    ]
+                },
+                {
+                    "name": "system_cores_0_dBus_rsp_payload_fragment_opcode",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc"
+                    ],
+                    "net_idx_left": 0,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "system_cores_0_dBus_rsp_payload_last",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc"
+                    ]
+                },
+                {
+                    "name": "system_cores_0_dBus_rsp_payload_fragment_context",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc"
+                    ],
+                    "net_idx_left": 0,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "system_cores_0_logic_cpu_dBus_rsp_ready",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc"
+                    ]
+                },
+                {
+                    "name": "VAL_HEARTRATE",
+                    "width": 12,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 11,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_apbSlave_0_PREADY",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "io_apbSlave_0_PSLVERROR",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "io_apbSlave_0_PWDATA",
+                    "width": 32,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_apbSlave_0_PENABLE",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "io_apbSlave_0_PADDR",
+                    "width": 16,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 15,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_apbSlave_0_PSEL",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "io_apbSlave_0_PRDATA",
+                    "width": 32,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_apbSlave_0_PWRITE",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "VAL_WATT",
+                    "width": 20,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 19,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "VAL_STB",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "VAL_SPO2",
+                    "width": 12,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 11,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_bus_cmd_payload_fragment_data",
+                    "width": 32,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_bus_rsp_valid",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ]
+                },
+                {
+                    "name": "io_bus_cmd_fire",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ]
+                },
+                {
+                    "name": "io_interrupt",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ]
+                },
+                {
+                    "name": "io_bus_cmd_fire_1",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ]
+                },
+                {
+                    "name": "io_bus_cmd_payload_fragment_source",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ],
+                    "net_idx_left": 0,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_bus_rsp_payload_last",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ]
+                },
+                {
+                    "name": "io_bus_rsp_payload_fragment_opcode",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ],
+                    "net_idx_left": 0,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_uart_rxd",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ]
+                },
+                {
+                    "name": "io_bus_cmd_payload_last",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ]
+                },
+                {
+                    "name": "io_bus_cmd_payload_fragment_address",
+                    "width": 6,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ],
+                    "net_idx_left": 5,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_bus_cmd_payload_fragment_length",
+                    "width": 2,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ],
+                    "net_idx_left": 1,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_bus_rsp_payload_fragment_data",
+                    "width": 32,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_bus_rsp_payload_fragment_source",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ],
+                    "net_idx_left": 0,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_bus_rsp_payload_fragment_context",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ],
+                    "net_idx_left": 0,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_bus_rsp_ready",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ]
+                },
+                {
+                    "name": "io_uart_txd",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ]
+                },
+                {
+                    "name": "io_bus_cmd_payload_fragment_opcode",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ],
+                    "net_idx_left": 0,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_bus_cmd_payload_fragment_context",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ],
+                    "net_idx_left": 0,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_bus_cmd_ready",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ]
+                },
+                {
+                    "name": "io_bus_cmd_valid",
+                    "width": 1,
+                    "clk_domain": "CLK25M",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_sapphire_soc_min",
+                        "u_EfxSapphireSoc",
+                        "system_uart_0_io_logic"
+                    ]
+                }
+            ],
+            "top_module": "spo2_top",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER2",
+            "input_pipeline": 1
+        }
+    }
+}

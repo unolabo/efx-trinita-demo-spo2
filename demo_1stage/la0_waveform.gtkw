@@ -1,0 +1,57 @@
+[dumpfile] "/home/daisuke/_work/UNOLabo/spo2-efx-dbg/la0_waveform.vcd"
+[dumpfile_mtime] "水  5月 25 14:18:01 2022"
+[dumpfile_size] 28441
+[savefile] "/home/daisuke/_work/UNOLabo/spo2-efx-dbg/la0_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 256 768 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_cmd_payload_data[31:0]
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_cmd_payload_size[1:0]
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_cmd_valid
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_cmd_payload_wr
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_cmd_payload_address[31:0]
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_dBus_rsp_payload_fragment_data[31:0]
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_dBus_rsp_ready
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_rsp_error
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_dBus_rsp_valid
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_dBus_rsp_payload_fragment_opcode
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_dBus_rsp_payload_last
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_dBus_rsp_payload_fragment_context
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_cores_0_logic_cpu_dBus_rsp_ready
+top.VAL_HEARTRATE[11:0]
+top.io_apbSlave_0_PREADY
+top.io_apbSlave_0_PSLVERROR
+top.io_apbSlave_0_PWDATA[31:0]
+top.io_apbSlave_0_PENABLE
+top.io_apbSlave_0_PADDR[15:0]
+top.io_apbSlave_0_PSEL
+top.io_apbSlave_0_PRDATA[31:0]
+top.io_apbSlave_0_PWRITE
+top.VAL_WATT[19:0]
+top.VAL_STB
+top.VAL_SPO2[11:0]
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_fragment_data[31:0]
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_valid
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_fire
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_interrupt
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_fire_1
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_fragment_source
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_payload_last
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_payload_fragment_opcode
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_uart_rxd
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_last
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_fragment_address[5:0]
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_fragment_length[1:0]
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_payload_fragment_data[31:0]
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_payload_fragment_source
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_payload_fragment_context
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_rsp_ready
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_uart_txd
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_fragment_opcode
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_payload_fragment_context
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_ready
+top.\u_sapphire_soc_min/u_EfxSapphireSoc/system_uart_0_io_logic/io_bus_cmd_valid
