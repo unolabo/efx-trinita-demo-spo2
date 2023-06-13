@@ -27,13 +27,11 @@
 
 ## 実行結果
 
-| コア  | 結果   | DMIPS/MHz(参考) |
-| ------ | ------ | ------ |
-| Sapphire | ![image](./images/sapphire_result.png) | 0.86 |
-| 1stage | ![image](./images/1stage_result.png) | 1.44 |
-| 2stage | ![image](./images/2stage_result.png) | 1.32 |
+![image](./images/spo2_result_image.png)
 
-**補足**
+**※補足**
+
+Sapphire 42 MHz は Trinita 1stage 25 MHz と同等の処理量、Sapphire 38.4 MHz は Trinita 2stage 25 MHz と同等の処理量です。いずれも Trinita の方が電力効率が高い結果となっています。
 
 - LCD 表示内容
   - Bio : 飽和酸素濃度, 心拍数

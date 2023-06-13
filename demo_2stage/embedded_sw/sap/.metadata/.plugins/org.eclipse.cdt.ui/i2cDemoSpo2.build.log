@@ -1,10 +1,6 @@
-16:43:17 **** Incremental Build of configuration Default for project i2cDemoSpo2 ****
+15:44:05 **** Incremental Build of configuration Default for project i2cDemoSpo2 ****
 make all 
-CC src/main.c
-LD i2cDemoSpo2
-Memory region         Used Size  Region Size  %age Used
-             ROM:        5112 B        32 KB     15.60%
-             RAM:         332 B        32 KB      1.01%
+make: Nothing to be done for 'all'.
 
-16:43:18 Build Finished. 0 errors, 0 warnings. (took 502ms)
+15:44:05 Build Finished. 0 errors, 0 warnings. (took 106ms)
 

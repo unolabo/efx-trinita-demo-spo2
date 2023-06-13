@@ -61,3 +61,41 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clearPersistedState
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-05-15 16:41:48.627
 !MESSAGE Indexed 'i2cDemoSpo2' (1 sources, 1 headers) in 0.14 sec: 142 declarations; 3 references; 11 unresolved inclusions; 0 syntax errors; 16 unresolved names (9.9%)
+!SESSION 2023-05-26 15:36:18.790 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -clearPersistedState
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clearPersistedState
+
+!ENTRY org.eclipse.ui 4 4 2023-05-26 15:36:32.365
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 5012 2023-05-26 15:39:22.787
+!MESSAGE Error while launching command: riscv-none-embed-gdb --version
+
+!ENTRY org.eclipse.ui 2 2 2023-05-26 15:39:36.276
+!MESSAGE Invalid preference category path: org.eclipse.ease.preferences.global (bundle: org.eclipse.ease.lang.python.jython, page: org.eclipse.ease.lang.python.jython.libraryPrefPage)
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2023-05-26 15:43:03.618
+!MESSAGE C:\Efinity\efinity-riscv-ide-2022.2.3\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f D:\_uno\GitHub\internal_spo2demo\demo_1stage\embedded_sw\sap\bsp\efinix\EfxSapphireSoc\openocd\ftdi.cfg -f D:\_uno\GitHub\internal_spo2demo\demo_1stage\embedded_sw\sap\bsp\efinix\EfxSapphireSoc\openocd\debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2023-05-26 15:43:04.951
+!MESSAGE C:\Efinity\efinity-riscv-ide-2022.2.3\Efinity-RISCV-IDE\/../toolchain/bin/riscv-none-embed-gdb.exe --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2023-05-26 15:43:33.159
+!MESSAGE C:\Efinity\efinity-riscv-ide-2022.2.3\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f D:\_uno\GitHub\internal_spo2demo\demo_1stage\embedded_sw\sap\bsp\efinix\EfxSapphireSoc\openocd\ftdi.cfg -f D:\_uno\GitHub\internal_spo2demo\demo_1stage\embedded_sw\sap\bsp\efinix\EfxSapphireSoc\openocd\debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2023-05-26 15:43:39.052
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2023-05-26 15:44:05.768
+!MESSAGE C:\Efinity\efinity-riscv-ide-2022.2.3\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f D:\_uno\GitHub\internal_spo2demo\demo_1stage\embedded_sw\sap\bsp\efinix\EfxSapphireSoc\openocd\ftdi.cfg -f D:\_uno\GitHub\internal_spo2demo\demo_1stage\embedded_sw\sap\bsp\efinix\EfxSapphireSoc\openocd\debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2023-05-26 15:44:11.653
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.

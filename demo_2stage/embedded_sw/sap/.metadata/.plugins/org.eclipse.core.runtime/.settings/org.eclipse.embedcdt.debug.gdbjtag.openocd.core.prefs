@@ -13,4 +13,4 @@ gdb.openocd.preRun.other=
 gdb.openocd.preRunReset.type=halt
 gdb.server.doStart=true
 gdb.server.executable=${eclipse_home}/../openocd/bin/openocd.exe
-gdb.server.other=-f ../../../bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg\r\n-f ../../../bsp/efinix/EfxSapphireSoc/openocd/debug.cfg
+gdb.server.other=-f ${workspace_loc}\\bsp\\efinix\\EfxSapphireSoc\\openocd\\ftdi.cfg\r\n-f ${workspace_loc}\\bsp\\efinix\\EfxSapphireSoc\\openocd\\debug.cfg

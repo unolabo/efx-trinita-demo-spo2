@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<efx:project name="efx-spo2" description="" last_change_date="火 5月 16 2023 10:58:53" location="D:/_uno/GitHub/efx-trinita-spo2demo/demo_1stage" sw_version="2022.2.322.5.7" last_run_state="pass" last_run_tool="efx_pgm" last_run_flow="bitstream" config_result_in_sync="true" design_ood="sync" place_ood="sync" route_ood="sync" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
+<efx:project name="efx-spo2" description="" last_change_date="火 6月 13 2023 16:12:41" location="D:/_uno/SpO2/demo_1stage_swap" sw_version="2022.2.322.5.7" last_run_state="pass" last_run_tool="efx_pgm" last_run_flow="bitstream" config_result_in_sync="true" design_ood="sync" place_ood="sync" route_ood="sync" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
     <efx:device_info>
         <efx:family name="Trion"/>
         <efx:device name="T20F256"/>
