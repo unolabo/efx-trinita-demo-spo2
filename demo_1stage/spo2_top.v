@@ -1,8 +1,8 @@
 module spo2_top
 (
     input  io_systemClk,
-    input  io_systemClk2,
     input  io_systemClk3,
+    input  periCLK,
     input  io_pushAsyncReset,
     input  io_pllLocked,
     output io_pllReset,
@@ -74,15 +74,18 @@ module spo2_top
   wire [11:0] VAL_HEARTRATE;
   wire [19:0] VAL_WATT;
   wire        VAL_STB;
+  wire io_systemClk2;
 
   assign userInterruptA = 1'b0;
   assign io_pllReset    = io_asyncReset;
   //assign systemReset    = ~io_pllLocked;
   assign spo2_reset     = io_pllLocked;
+  assign io_systemClk2  = ~io_systemClk3;
 
 sap sap(
     .io_systemClk ( io_systemClk ),
     .io_systemClk2 ( io_systemClk2 ),
+    .io_systemClk3 ( io_systemClk3 ),
     .jtagCtrl_enable  ( jtagCtrl_enable ),
     .jtagCtrl_tdi     ( jtagCtrl_tdi ),
     .jtagCtrl_capture ( jtagCtrl_capture ),
@@ -152,7 +155,7 @@ sap sap(
 
   lcddrive lcddrive
   (
-    .CLK(io_systemClk3),
+    .CLK(periCLK),
     .XRST(~systemReset),
     .STATE(_),
     .CTRL(lcd_control),
@@ -172,7 +175,7 @@ sap sap(
   assign system_i2c_1_io_sda_write       = 1'b0;
   assign system_i2c_1_io_sda_writeEnable = ~system_i2c_1_io_sda_write_net;
 
-  always@(posedge io_systemClk3 or negedge io_pllLocked)
+  always@(posedge periCLK or negedge io_pllLocked)
   begin
       if (io_pllLocked==1'b0)
           test_cnt <= 0;

@@ -1,8 +1,8 @@
 # PLL Constraints
 #################
-create_clock -period 40.0 -waveform { 0.0 20.0} io_systemClk2
-create_clock -period 40.0 -waveform {15.0 35.0} io_systemClk
-create_clock -period 10.0 io_systemClk3
+create_clock -period 40.0000 io_systemClk
+create_clock -waveform {10.0000 30.0000} -period 40.0000 io_systemClk3
+create_clock -period 10.0000 periCLK
 create_clock -period 100 jtagCtrl_tck
 
 # False Path
@@ -15,9 +15,9 @@ set_false_path -setup -hold -from apb3_to_lcddata/slaveReg* -to lcddrive/r_val_w
 
 set_false_path -setup -hold io_asyncResetn
 set_false_path -setup -hold soc_inst/io_systemReset
-set_clock_groups -exclusive  -group {io_systemClk io_systemClk2} -group {jtagCtrl_tck}
-set_clock_groups -asynchronous -group {io_systemClk io_systemClk2} -group {jtagCtrl_tck}
-set_clock_groups -asynchronous -group {io_systemClk io_systemClk2} -group {io_systemClk3}
+set_clock_groups -exclusive  -group {io_systemClk io_systemClk2 io_systemClk3} -group {jtagCtrl_tck}
+set_clock_groups -asynchronous -group {io_systemClk io_systemClk2 io_systemClk3} -group {jtagCtrl_tck}
+set_clock_groups -asynchronous -group {io_systemClk io_systemClk2 io_systemClk3} -group {periCLK}
 
 #SPI Constraints
 #################

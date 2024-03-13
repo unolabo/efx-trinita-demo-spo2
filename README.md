@@ -1,4 +1,4 @@
-# Trinita 1stage/2stage SpO2 Demo Design
+# Trinita 1stage SpO2 Demo Design
 
 ## 注意
 
@@ -10,7 +10,7 @@
 
 ![image](./images/block_diagram.png)
 
-- Efinix 向け 1stage/2stage Trinita Core を使ったデモデザインです。
+- Efinix 向け 1stage Trinita Core を使ったデモデザインです。
 - T20 BGA256 Development Board に結合する拡張ボードに下記のパーツが実装されています。
   - これらのパーツを Trinita Core から制御します。
 
@@ -31,13 +31,11 @@
 
 **※補足**
 
-Sapphire 42 MHz は Trinita 1stage 25 MHz と同等の処理量、Sapphire 38.4 MHz は Trinita 2stage 25 MHz と同等の処理量です。いずれも Trinita の方が電力効率が高い結果となっています。
-
 - LCD 表示内容
   - Bio : 飽和酸素濃度, 心拍数
   - Pow : 消費電力
-- 1 stage は DMIPS/MHz が高く、Sapphire より処理量(待機処理) が多いため、消費電力も大きくなります
-- 1 stage は、動作周波数を下げることで、Sapphire と同等の性能を保ちながら、消費電力を下げることが可能です。
+
+Sapphire 42 MHz は Trinita 1stage 25 MHz と同等の処理量ですが、Trinita 1 stage のほうが消費電力が低くなっています。つまり、Trinita 1 stage を実装することで、Sapphire と同等の性能を保ちながら、 動作周波数を下げて消費電力を下げられます。
 
 
 ## サンプルプロジェクト
@@ -46,7 +44,6 @@ Sapphire 42 MHz は Trinita 1stage 25 MHz と同等の処理量、Sapphire 38.4 
 | フォルダ | 内容  |
 | ------ | ------ |
 | [demo_1stage](./demo_1stage)  | 1 ステージ版デザイン |
-| [demo_2stage](./demo_2stage)  | 2 ステージ版デザイン |
 
 ## 問い合わせ先
 

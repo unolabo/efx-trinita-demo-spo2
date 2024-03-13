@@ -1,41 +1,41 @@
-////////////////////////////////////////////////////////////////////////////////
-// Copyright (C) 2013-2022 Efinix Inc. All rights reserved.              
-//
-// This   document  contains  proprietary information  which   is        
-// protected by  copyright. All rights  are reserved.  This notice       
-// refers to original work by Efinix, Inc. which may be derivitive       
-// of other work distributed under license of the authors.  In the       
-// case of derivative work, nothing in this notice overrides the         
-// original author's license agreement.  Where applicable, the           
-// original license agreement is included in it's original               
-// unmodified form immediately below this header.                        
-//                                                                       
-// WARRANTY DISCLAIMER.                                                  
-//     THE  DESIGN, CODE, OR INFORMATION ARE PROVIDED “AS IS” AND        
-//     EFINIX MAKES NO WARRANTIES, EXPRESS OR IMPLIED WITH               
-//     RESPECT THERETO, AND EXPRESSLY DISCLAIMS ANY IMPLIED WARRANTIES,  
-//     INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF          
-//     MERCHANTABILITY, NON-INFRINGEMENT AND FITNESS FOR A PARTICULAR    
-//     PURPOSE.  SOME STATES DO NOT ALLOW EXCLUSIONS OF AN IMPLIED       
-//     WARRANTY, SO THIS DISCLAIMER MAY NOT APPLY TO LICENSEE.           
-//                                                                       
-// LIMITATION OF LIABILITY.                                              
-//     NOTWITHSTANDING ANYTHING TO THE CONTRARY, EXCEPT FOR BODILY       
-//     INJURY, EFINIX SHALL NOT BE LIABLE WITH RESPECT TO ANY SUBJECT    
-//     MATTER OF THIS AGREEMENT UNDER TORT, CONTRACT, STRICT LIABILITY   
-//     OR ANY OTHER LEGAL OR EQUITABLE THEORY (I) FOR ANY INDIRECT,      
-//     SPECIAL, INCIDENTAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES OF ANY    
-//     CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF      
-//     GOODWILL, DATA OR PROFIT, WORK STOPPAGE, OR COMPUTER FAILURE OR   
-//     MALFUNCTION, OR IN ANY EVENT (II) FOR ANY AMOUNT IN EXCESS, IN    
-//     THE AGGREGATE, OF THE FEE PAID BY LICENSEE TO EFINIX HEREUNDER    
-//     (OR, IF THE FEE HAS BEEN WAIVED, $100), EVEN IF EFINIX SHALL HAVE 
-//     BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES.  SOME STATES DO 
-//     NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR            
-//     CONSEQUENTIAL DAMAGES, SO THIS LIMITATION AND EXCLUSION MAY NOT   
-//     APPLY TO LICENSEE.                                                
-//
-////////////////////////////////////////////////////////////////////////////////
+--------------------------------------------------------------------------------
+-- Copyright (C) 2013-2023 Efinix Inc. All rights reserved.              
+--
+-- This   document  contains  proprietary information  which   is        
+-- protected by  copyright. All rights  are reserved.  This notice       
+-- refers to original work by Efinix, Inc. which may be derivitive       
+-- of other work distributed under license of the authors.  In the       
+-- case of derivative work, nothing in this notice overrides the         
+-- original author's license agreement.  Where applicable, the           
+-- original license agreement is included in it's original               
+-- unmodified form immediately below this header.                        
+--                                                                       
+-- WARRANTY DISCLAIMER.                                                  
+--     THE  DESIGN, CODE, OR INFORMATION ARE PROVIDED “AS IS” AND        
+--     EFINIX MAKES NO WARRANTIES, EXPRESS OR IMPLIED WITH               
+--     RESPECT THERETO, AND EXPRESSLY DISCLAIMS ANY IMPLIED WARRANTIES,  
+--     INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF          
+--     MERCHANTABILITY, NON-INFRINGEMENT AND FITNESS FOR A PARTICULAR    
+--     PURPOSE.  SOME STATES DO NOT ALLOW EXCLUSIONS OF AN IMPLIED       
+--     WARRANTY, SO THIS DISCLAIMER MAY NOT APPLY TO LICENSEE.           
+--                                                                       
+-- LIMITATION OF LIABILITY.                                              
+--     NOTWITHSTANDING ANYTHING TO THE CONTRARY, EXCEPT FOR BODILY       
+--     INJURY, EFINIX SHALL NOT BE LIABLE WITH RESPECT TO ANY SUBJECT    
+--     MATTER OF THIS AGREEMENT UNDER TORT, CONTRACT, STRICT LIABILITY   
+--     OR ANY OTHER LEGAL OR EQUITABLE THEORY (I) FOR ANY INDIRECT,      
+--     SPECIAL, INCIDENTAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES OF ANY    
+--     CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF      
+--     GOODWILL, DATA OR PROFIT, WORK STOPPAGE, OR COMPUTER FAILURE OR   
+--     MALFUNCTION, OR IN ANY EVENT (II) FOR ANY AMOUNT IN EXCESS, IN    
+--     THE AGGREGATE, OF THE FEE PAID BY LICENSEE TO EFINIX HEREUNDER    
+--     (OR, IF THE FEE HAS BEEN WAIVED, $100), EVEN IF EFINIX SHALL HAVE 
+--     BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES.  SOME STATES DO 
+--     NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR            
+--     CONSEQUENTIAL DAMAGES, SO THIS LIMITATION AND EXCLUSION MAY NOT   
+--     APPLY TO LICENSEE.                                                
+--
+--------------------------------------------------------------------------------
 ------------- Begin Cut here for COMPONENT Declaration ------
 COMPONENT sap is
 PORT (
@@ -101,7 +101,6 @@ system_spi_0_io_data_3_read : in std_logic;
 system_spi_0_io_data_3_write : out std_logic;
 system_spi_0_io_data_3_writeEnable : out std_logic;
 system_spi_0_io_sclk_write : out std_logic;
-system_spi_0_io_ss : out std_logic_vector(0 to 0);
 userInterruptA : in std_logic;
 io_apbSlave_0_PADDR : out std_logic_vector(15 downto 0);
 io_apbSlave_0_PENABLE : out std_logic;
@@ -125,7 +124,8 @@ system_i2c_0_io_sda_read : in std_logic;
 system_i2c_0_io_sda_write : out std_logic;
 system_gpio_0_io_writeEnable : out std_logic_vector(3 downto 0);
 system_gpio_0_io_write : out std_logic_vector(3 downto 0);
-system_gpio_0_io_read : in std_logic_vector(3 downto 0));
+system_gpio_0_io_read : in std_logic_vector(3 downto 0);
+system_spi_0_io_ss : out std_logic_vector(0 to 0));
 END COMPONENT;
 ---------------------- End COMPONENT Declaration ------------
 
@@ -194,7 +194,6 @@ system_spi_0_io_data_3_read => system_spi_0_io_data_3_read,
 system_spi_0_io_data_3_write => system_spi_0_io_data_3_write,
 system_spi_0_io_data_3_writeEnable => system_spi_0_io_data_3_writeEnable,
 system_spi_0_io_sclk_write => system_spi_0_io_sclk_write,
-system_spi_0_io_ss => system_spi_0_io_ss,
 userInterruptA => userInterruptA,
 io_apbSlave_0_PADDR => io_apbSlave_0_PADDR,
 io_apbSlave_0_PENABLE => io_apbSlave_0_PENABLE,
@@ -218,5 +217,6 @@ system_i2c_0_io_sda_read => system_i2c_0_io_sda_read,
 system_i2c_0_io_sda_write => system_i2c_0_io_sda_write,
 system_gpio_0_io_writeEnable => system_gpio_0_io_writeEnable,
 system_gpio_0_io_write => system_gpio_0_io_write,
-system_gpio_0_io_read => system_gpio_0_io_read);
+system_gpio_0_io_read => system_gpio_0_io_read,
+system_spi_0_io_ss => system_spi_0_io_ss);
 ------------------------ End INSTANTIATION Template ---------

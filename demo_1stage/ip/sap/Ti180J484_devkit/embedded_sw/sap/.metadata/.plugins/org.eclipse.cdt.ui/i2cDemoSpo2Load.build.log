@@ -1,0 +1,12 @@
+11:19:26 **** Build of configuration Default for project i2cDemoSpo2Load ****
+make all 
+CC src/main.c
+CC src/start.S
+CC ../common/trap.S
+LD gpioDemo
+Memory region         Used Size  Region Size  %age Used
+             ROM:        5240 B        32 KB     15.99%
+             RAM:         340 B        32 KB      1.04%
+
+11:19:26 Build Finished. 0 errors, 0 warnings. (took 514ms)
+

@@ -1,0 +1,6 @@
+15:44:05 **** Incremental Build of configuration Default for project i2cDemoSpo2 ****
+make all 
+make: Nothing to be done for 'all'.
+
+15:44:05 Build Finished. 0 errors, 0 warnings. (took 106ms)
+

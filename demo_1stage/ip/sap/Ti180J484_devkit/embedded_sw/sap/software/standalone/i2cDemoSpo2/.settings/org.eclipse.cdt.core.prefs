@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/0.1712975972/DEBUG/delimiter=;
+environment/project/0.1712975972/DEBUG/operation=replace
+environment/project/0.1712975972/DEBUG/value=yes
+environment/project/0.1712975972/DEBUG_OG/delimiter=;
+environment/project/0.1712975972/DEBUG_OG/operation=append
+environment/project/0.1712975972/DEBUG_OG/value=no
+environment/project/0.1712975972/append=true
+environment/project/0.1712975972/appendContributed=true
